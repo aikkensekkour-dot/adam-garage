@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam's Garage - Taller de Vehículos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #1c1c1c;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        header p {
+            margin: 5px 0 0 0;
+            font-size: 16px;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        section {
+            padding: 30px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            color: #1c1c1c;
+            border-bottom: 2px solid #1c1c1c;
+            padding-bottom: 5px;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .service {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            width: 48%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .service h3 {
+            margin-top: 0;
+            color: #1c1c1c;
+        }
+        .service p {
+            margin: 5px 0;
+        }
+        footer {
+            background-color: #1c1c1c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        .contact-form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .contact-form button {
+            background-color: #1c1c1c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .contact-form button:hover {
+            background-color: #444;
+        }
+        .socials a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Adam's Garage</h1>
+    <p>Taller de vehículos en Badalona | Horario: 8:00 - 19:00</p>
+</header>
+
+<nav>
+    <a href="#services">Servicios</a>
+    <a href="#contact">Contacto</a>
+</nav>
+
+<section id="services">
+    <h2>Servicios y precios</h2>
+    <div class="services">
+        <div class="service">
+            <h3>Cambio de aceite</h3>
+            <p><strong>Precio:</strong> 50€</p>
+            <p>Mantenimiento básico para tu motor, cambiamos aceite y filtro para que tu coche funcione perfecto.</p>
+        </div>
+        <div class="service">
+            <h3>Revisión de frenos</h3>
+            <p><strong>Precio:</strong> 60€</p>
+            <p>Comprobamos discos, pastillas y líquido de frenos para que tu vehículo esté seguro.</p>
+        </div>
+        <div class="service">
+            <h3>Diagnosis electrónica</h3>
+            <p><strong>Precio:</strong> 40€</p>
+            <p>Revisamos el sistema electrónico de tu coche y detectamos fallos rápidamente, ideal para híbridos y eléctricos.</p>
+        </div>
+        <div class="service">
+            <h3>Chapa y pintura</h3>
+            <p><strong>Precio:</strong> Desde 100€</p>
+            <p>Reparamos abolladuras y pintamos la carrocería con pintura ecológica al agua, dejando tu coche como nuevo.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contacto</h2>
+    <div class="contact-form">
+        <form>
+            <input type="text" name="name" placeholder="Nombre" required>
+            <input type="email" name="email" placeholder="Correo electrónico" required>
+            <textarea name="message" rows="5" placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <p>Teléfono: 123465987 | Correo: adamikken2008@gmail.com</p>
+    <div class="socials">
+        <a href="#">Instagram</a> | 
+        <a href="#">TikTok</a> | 
+        <a href="#">Facebook</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Adam's Garage - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
